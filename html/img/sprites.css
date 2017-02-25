@@ -1,0 +1,40 @@
+.icon-stage1, .icon-stage2, .icon-stage3, .icon-stage4, .icon-star, .icon-download{
+	background: url(sprites.png) no-repeat;
+}
+
+.icon-stage1{
+	background-position: 0 0;
+	width: 25px;
+	height: 36px;
+}
+
+.icon-stage2{
+	background-position: 0 -48px ;
+	width: 37px;
+	height: 35px;
+}
+
+.icon-stage3{
+	background-position: 0 -92px ;
+	width: 35px;
+	height: 35px;
+}
+
+.icon-stage4{
+	background-position: 0 -139px ;
+	width: 28px;
+	height: 27px;
+}
+
+.icon-star{
+	background-position: 0 -174px ;
+	width: 18px;
+	height: 18px;
+}
+
+.icon-download{
+	background-position: 0 -202px ;
+	width: 33px;
+	height: 34px;
+}
+

@@ -1,0 +1,214 @@
+.application-important {
+    padding: rem(80px) 0 rem(90px) 0;
+}
+.application-important__container {
+    @extend .container;
+}
+.application-important__title {
+    h3 {
+        margin: 0;
+        font-size: rem(20px);
+        line-height: 1.2;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+}
+.application-important__text {
+    margin: rem(15px) 0 0 0;
+    font-size: rem(20px);
+    line-height: 2;
+    font-weight: 500;
+    p {
+        margin: rem(10px) 0 0 0;
+    }
+}
+.application-form {
+    margin: 0 0 rem(90px) 0;
+}
+.application-form__section {
+    padding: rem(80px) 0 rem(90px) 0;
+    &:nth-child(odd) {
+        background-color: #f8f8f8;
+    }
+}
+.application-form__container {
+    @extend .container;
+    border: none;
+    legend {
+        & + * {
+            -webkit-margin-top-collapse: separate;
+        }
+    }
+}
+.application-form__input {
+    @extend .clearfix;
+    display: block;
+    margin: rem(50px) 0 0 0;
+    &:first-of-type() {
+        margin: rem(80px) 0 0 0;
+    }
+    span {
+        float: left;
+        display: block;
+        width: 50%;
+        font-size: rem(25px);
+        line-height: 1.2;
+        font-weight: 500;
+    }
+    small {
+        display: block;
+        font-weight: 400;
+        font-size: rem(20px);
+    }
+    input {
+        float: right;
+        display: block;
+        width: 47%;
+        margin: 0 0 0 3%;
+        height: rem(60px);
+        padding: 0 rem(30px);
+        line-height: rem(56px);
+        color: $fc;
+        font-size: rem(16px);
+        background-color: transparent;
+        border: none;
+        border: 2px solid #d0d0d6;
+        border-radius: 60px;
+        outline: 0;
+        box-shadow: none;
+        font-family: Verdana, sans-serif;
+        transition: all .5s ease;
+		&:hover, &:active, &:focus {
+            border-color: $green;
+            background-color: transparentize($green, .9);
+		}
+    }
+}
+.application-form__text {
+    margin: rem(30px) 0 0 0;
+    font-size: rem(20px);
+    line-height: 1.2;
+    font-weight: 500;
+}
+.application-form__box {
+    margin: rem(80px) 0 0 0;
+    font-size: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.application-form__checkbox {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    margin: 0 5% rem(50px) 0;
+    input {
+        display: none;
+        &:checked ~ label {
+            &:before {
+                background-color: $pink;
+            }
+        }
+    }
+    label {
+        position: relative;
+        display: block;
+        vertical-align: top;
+        padding: 0 0 0 rem(40px);
+        font-size: rem(25px);
+        line-height: 1.2;
+        font-weight: 500;
+        &:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: rem(5px);
+            width: rem(20px);
+            height: rem(20px);
+            border-radius: rem(20px);
+            border: 2px solid $fc;
+            box-shadow: inset 0 0 0 rem(4px) #fff;
+            background-color: #fff;
+        }
+    }
+}
+.application-form__textarea {
+    display: block;
+    margin: rem(50px) 0 0 0;
+    &:first-of-type() {
+        margin: rem(80px) 0 0 0;
+    }
+    span {
+        display: block;
+        font-size: rem(25px);
+        line-height: 1.2;
+        font-weight: 500;
+    }
+    textarea {
+        display: block;
+        width: 100%;
+        margin: rem(30px) 0 0 0;
+        height: rem(230px);
+        padding: rem(20px) rem(30px);
+        line-height: 1.2;
+        color: $fc;
+        font-size: rem(16px);
+        background-color: transparent;
+        border: none;
+        border: 2px solid #d0d0d6;
+        border-radius: 20px;
+        outline: 0;
+        box-shadow: none;
+        font-family: Verdana, sans-serif;
+        resize: vertical;
+        transition: all .5s ease;
+		&:hover, &:active, &:focus {
+            border-color: $green;
+            background-color: transparentize($green, .9);
+		}
+    }
+}
+.application-form__submit {
+    @extend .container;
+    text-align: center;
+}
+
+@media only screen and (max-width : 1200px) {
+
+}
+
+@media only screen and (max-width : 992px) {
+
+}
+
+@media only screen and (max-width : 768px) {
+
+}
+@media only screen and (max-width : 640px) {
+    .application-form__input {
+        span {
+            float: none;
+            width: auto;
+        }
+        input {
+            float: none;
+            width: 100%;
+            margin: rem(20px) 0 0 0;
+        }
+    }
+    .application-form__box {
+        display: block;
+    }
+    .application-form__checkbox {
+        display: block;
+        width: auto;
+        margin: rem(50px) 0 0 0;
+    }
+}
+
+@media only screen and (max-width : 480px) {
+
+}
+
+@media only screen and (max-width : 320px) {
+
+}

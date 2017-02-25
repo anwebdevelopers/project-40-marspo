@@ -1,0 +1,29 @@
+.registry {
+    position: relative;
+    z-index: 1;
+    margin-bottom: rem(-270px);
+}
+.registry__container {
+    @extend .container;
+}
+.registry__box {
+    padding: rem(80px) 5% rem(90px) 5%;
+    border: 7px solid $green;
+    background-image: url(../img/bg-registry.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 0;
+}
+.registry__text {
+    margin: rem(40px) 0 0 0;
+    font-size: rem(20px);
+    line-height: 1.2;
+    font-weight: 500;
+    color: #fff;
+    p {
+        margin: 0;
+    }
+}
+.registry__button {
+    margin: rem(50px) 0 0 0;
+}
