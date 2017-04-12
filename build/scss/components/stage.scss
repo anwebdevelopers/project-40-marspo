@@ -1,11 +1,11 @@
 .stage {
-    padding: rem(80px) 0 rem(100px) 0;
+    padding: 5rem 0 6.25rem 0;
 }
 .stage__container {
     @extend .container;
 }
 .stage__box {
-    margin: rem(70px) 0 0 0;
+    margin: 4.375rem 0 0 0;
     font-size: 0;
     display: flex;
     flex-wrap: wrap;
@@ -73,7 +73,7 @@
     }
 }
 .stage__item-inner {
-    padding: 0 0 rem(80px) 0;
+    padding: 0 0 5rem 0;
 }
 .stage__item-icon {
     i {
@@ -126,39 +126,39 @@
 }
 .stage__item-box  {
     position: relative;
-    margin: rem(50px) 0 0 0;
-    padding: 0 0 0 rem(15px);
+    margin: 3.125rem 0 0 0;
+    padding: 0 0 0 .09375rem;
     &:before {
         position: absolute;
         left: 0;
-        top: rem(-5px);
+        top: 0.3125rem;
         color: $green;
         transform: translateX(-100%);
-        font-size: rem(35px);
+        font-size: 2.1875rem;
         font-weight: 900;
         line-height: 1;
     }
 }
 .stage__item-date {
-    font-size: rem(18px);
+    font-size: 1.125rem;
     font-weight: 900;
 }
 .stage__item-text {
-    margin: rem(5px) 0 0 0;
-    font-size: rem(25px);
+    margin: 0.3125rem 0 0 0;
+    font-size: 1.5625rem;
     line-height: 1.2;
     font-weight: 500;
 }
 .stage__button {
-    margin: rem(20px) 0 0 0;
+    margin: 1.25rem 0 0 0;
     text-align: center;
     .button {
         position: relative;
-        padding-right: rem(80px);
+        padding-right: 5rem;
         &:after {
             content: '';
             position: absolute;
-            right: rem(30px);
+            right: 1.875rem;
             top: 50%;
             transform: translateY(-50%);
             background-image: url(../img/sprites.png);
@@ -183,7 +183,7 @@
             display: block;
             position: static;
             transform: none;
-            margin: 0 0 rem(10px) 0;
+            margin: 0 0 0.625rem 0;
         }
     }
     .stage__item {
@@ -192,7 +192,7 @@
 }
 @media only screen and (max-width : 640px) {
     .stage__item-text {
-        font-size: rem(20px);
+        font-size: 1.25rem;
     }
 }
 
@@ -210,10 +210,10 @@
         }
     }
     .stage__item-inner {
-        padding: 0 0 rem(40px) 0;
+        padding: 0 0 2.5rem 0;
     }
     .stage__item-text {
-        font-size: rem(16px);
+        font-size: 1rem;
     }
 }
 

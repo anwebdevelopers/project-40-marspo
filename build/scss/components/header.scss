@@ -35,13 +35,13 @@
         padding: 0;
         list-style: none;
         li {
-            margin: rem(30px) 0 0 0;
+            margin: 1.875rem 0 0 0;
             &:first-child() {
                 margin-top: 0;
             }
             a {
                 position: relative;
-                font-size: rem(26px);
+                font-size: 1.625rem;
                 line-height: 1.2;
                 color: #fff;
                 text-decoration: none;
@@ -88,7 +88,7 @@
 .header {
     position: relative;
     z-index: 100;
-    padding: rem(55px) 0 rem(100px) 0;
+    padding: 3.4375rem 0 6.25rem 0;
     background-color: #131e33;
     background-image: url(../img/bg-header.png);
     background-position: center 0;
@@ -110,16 +110,16 @@
     position: relative;
 	float: left;
 	display: block;
-	width: rem(110px);
-	height: rem(27px);
-	margin: rem(20px) 0 0 0;
-	padding: 0 0 0 rem(50px);
+    width: 6.875rem;
+    height: 1.6875rem;
+    margin: 1.25rem 0 0 0;
+    padding: 0 0 0 3.125rem;
 	border: none;
 	outline: none;
 	background-color: transparent;
     color: #fff;
 	text-align: left;
-	font-size: rem(16px);
+	font-size: 1rem;
     font-weight: 500;
 	transition: all .5s ease;
     font-family: 'Gotham Pro';
@@ -127,28 +127,28 @@
 		content: '';
 		position: absolute;
 		left: 0;
-        top: rem(12px);
-		display: block;
-		width: rem(24px);
+        top: .75rem;
+        display: block;
+        width: 1.5rem;
 		height: 3px;
 		background-color: $green;
-		border-radius: rem(3px);
+		border-radius: .1875rem;
 		transition: all .5s ease;
 	}
 	&:before {
 		top: 0;
-        width: rem(36px);
+        width: 2.25rem;
 	}
 	&:after {
 		top: auto;
         bottom: 0;
-        width: rem(29px);
+        width: 1.8125rem;
 	}
 	&:hover, &:active {
 		color: $green;
 		span, &:before, &:after {
 			background-color: #fff;
-            width: rem(36px);
+            width: 2.25rem;
 		}
 	}
     &.active {
@@ -156,7 +156,7 @@
         top: 15px;
         left: 15px;
         z-index: 11;
-        margin: rem(10px) 0 0 0;
+        margin: .625rem 0 0 0;
         span {
     		display: none;
     	}
@@ -174,7 +174,7 @@
     		top: 10px;
     		transform: rotate(-45deg);
     		background-color: $green;
-            width: rem(36px);
+            width: 2.25rem;
     	}
         &:hover, &:active {
     		&:before, &:after {
@@ -186,12 +186,12 @@
 .header__parthner {
     @extend .clearfix;
     float: left;
-    width: rem(260px);
-    margin: 0 0 0 rem(100px);
+    width: 16.25rem;
+    margin: 0 0 0 6.25rem;
 }
 .header__parthner-img {
     float: left;
-    width: rem(74px);
+    width: 4.625rem;
     img {
         width: 100%;
         height: auto;
@@ -199,8 +199,8 @@
     }
 }
 .header__parthner-text {
-    margin: rem(20px) 0 0 rem(90px);
-    font-size: rem(15px);
+    margin: 1.25rem 0 0 5.625rem;
+    font-size: .9375rem;
     color: #fff;
     line-height: 1.2;
     font-weight: 500;
@@ -208,16 +208,16 @@
 
 .header__social {
     float: left;
-    width: rem(245px);
-    margin: rem(20px) 0 0 rem(25px);
+    width: 15.3125rem;
+    margin: 1.25rem 0 0 1.5625rem;
     text-align: center;
     a {
         position: relative;
-        margin: 0 rem(3px);
+        margin: 0 .1875rem;
         text-decoration: none;
         color: #fff;
         transition: all .5s ease;
-        font-size: rem(15px);
+        font-size: .9375rem;
         line-height: 1.2;
         font-weight: 500;
         &:after {
@@ -241,14 +241,14 @@
 }
 .header__phone {
 	float: right;
-	width: rem(400px);
-	margin: rem(5px) 0 0 rem(30px);
+    width: 25rem;
+    margin: .3125rem 0 0 1.875rem;
 	text-align: right;
 }
 .header__phone-link {
 	display: inline-block;
 	vertical-align: middle;
-	font-size: rem(15px);
+	font-size: .9375rem;
 	a {
 		position: relative;
 		text-decoration: none;
@@ -276,16 +276,16 @@
 .header__phone-callback {
 	display: inline-block;
 	vertical-align: middle;
-	margin: 0 0 0 rem(20px);
+	margin: 0 0 0 1.25rem;
 
 	a {
         display: inline-block;
         vertical-align: top;
-		padding: rem(16px) rem(35px);
-		font-size: rem(14px);
+        padding: 1rem 2.1875rem;
+        font-size: .875rem;
         font-weight: 500;
         border: 2px solid $pink;
-        border-radius: rem(50px);
+        border-radius: 3.125rem;
         text-decoration: none;
         color: #fff;
         transition: all .5s ease;
@@ -298,12 +298,12 @@
 .header__box {
     @extend .clearfix;
     position: relative;
-    margin: rem(90px) 0 0 0;
+    margin: 5.625rem 0 0 0;
 }
 .header__img {
     position: absolute;
     right: 0;
-    top: rem(60px);
+    top: 3.75rem;
     bottom: 0;
     width: 52%;
     img {
@@ -320,17 +320,17 @@
 }
 
 .header__place {
-    font-size: rem(20px);
+    font-size: 1.25rem;
     color: #5e5e5e;
     font-weight: 600;
     line-height: 1.2;
 }
 
 .header__title {
-    margin: rem(20px) 0 0 0;
+    margin: 1.25rem 0 0 0;
     h1 {
         margin: 0;
-        font-size: rem(110px);
+        font-size: 6.875rem;
         color: $green;
         line-height: 1;
         text-transform: uppercase;
@@ -345,14 +345,14 @@
     &.header__title_application {
         text-align: center;
         h1 {
-            font-size: rem(68px);
+            font-size: 4.25rem;
         }
     }
 }
 .header__text {
     max-width: 80%;
-    margin: rem(30px) 0 0 0;
-    font-size: rem(30px);
+    margin: 1.875rem 0 0 0;
+    font-size: 1.875rem;
     color: #fff;
     font-weight: 500;
     line-height: 1.2;
@@ -361,21 +361,21 @@
     }
     &.header__text_application {
         max-width: 100%;
-        font-size: rem(20px);
+        font-size: 1.25rem;
         text-align: center;
     }
 }
 .header__button {
-    margin: rem(90px) 0 0 0;
+    margin: 5.625rem 0 0;
     &.header__button_application {
         text-align: center;
         .button {
             position: relative;
-            padding-right: rem(80px);
+            padding-right: 5rem;
             &:after {
                 content: '';
                 position: absolute;
-                right: rem(30px);
+                right: 1.875rem;
                 top: 50%;
                 transform: translateY(-50%);
                 background-image: url(../img/sprites.png);
@@ -389,17 +389,17 @@
 }
 @media only screen and (max-width : 1200px) {
     .header__parthner {
-        width: rem(220px);
-        margin: 0 0 0 rem(60px);
+        width: 13.75rem;
+        margin: 0 0 0 3.75rem;
     }
     .header__social {
         float: left;
-        width: rem(185px);
-        margin: rem(20px) 0 0 rem(20px);
+        width: 11.5625rem;
+        margin: 1.25rem 0 0 1.25rem;
     }
     .header__title {
         h1 {
-            font-size: rem(90px);
+            font-size: 5.625rem;
         }
     }
 }
@@ -408,32 +408,32 @@
     .header__menu-btn {
         &.active {
             font-size: 0;
-            width: rem(32px);
-            height: rem(32px);
+            width: 2rem;
+            height: 2rem;
             padding: 0;
         }
     }
     .header__social {
-        width: rem(180px);
+        width: 11.25rem;
     }
     .header__phone {
-    	width: rem(220px);
-        margin: rem(20px) 0 0 rem(30px);
+        width: 13.75rem;
+        margin: 1.25rem 0 0 1.875rem;
     }
     .header__phone-link {
         display: block;
     }
     .header__phone-callback {
     	display: block;
-    	margin: rem(15px) 0 0 0;
+    	margin: .9375rem 0 0 0;
     }
     .header__title {
         h1 {
-            font-size: rem(80px);
+            font-size: 5rem;
         }
     }
     .header__text {
-        font-size: rem(22px);
+        font-size: 1.375rem;
     }
 }
 
@@ -441,7 +441,7 @@
     .header__menu-list {
         ul {
             li {
-                margin: rem(20px) 0 0 0;
+                margin: 1.25rem 0 0 0;
             }
         }
     }
@@ -450,29 +450,29 @@
     }
     .header__center-box {
         clear: both;
-        padding: rem(10px) 0 0 0;
+        padding: .625rem 0 0 0;
     }
     .header__phone {
-    	margin: rem(5px) 0 0 0;
+    	margin: .3125rem 0 0 0;
     }
     .header__parthner {
-        width: rem(220px);
+        width: 13.75rem;
         margin: 0;
     }
     .header__social {
-        width: rem(110px);
+        width: 6.875rem;
         text-align: left;
     }
     .header__title {
         h1 {
-            font-size: rem(72px);
+            font-size: 4.5rem;
         }
     }
 }
 @media only screen and (max-width : 640px) {
     .header__title {
         h1 {
-            font-size: rem(66px);
+            font-size: 4.125rem;
         }
     }
 
@@ -486,7 +486,7 @@
         ul {
             li {
                 a {
-                    font-size: rem(22px);
+                    font-size: 1.375rem;
                 }
             }
         }
@@ -503,7 +503,7 @@
     .header__content {
         width: auto;
         max-width: 480px;
-        margin: rem(60px) auto 0 auto;
+        margin: 3.75rem auto 0 auto;
         text-align: center;
     }
     .header__text {

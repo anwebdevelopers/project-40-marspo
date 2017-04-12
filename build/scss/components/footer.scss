@@ -1,5 +1,5 @@
 .footer {
-    padding: rem(60px) 0;
+    padding: 3.75rem 0;
     background-color: #0a0d25;
 }
 .footer__container {
@@ -8,7 +8,7 @@
 }
 .footer__logo {
     float: left;
-    width: rem(415px);
+    width: 25.9375rem;
     img {
         max-width: 100%;
         width: auto;
@@ -17,16 +17,16 @@
 }
 .footer__social {
     float: left;
-    width: rem(300px);
-    margin: rem(20px) 0 0 rem(25px);
+    width: 18.75rem;
+    margin: 1.25rem 0 0 1.5625rem;
     text-align: center;
     a {
         position: relative;
-        margin: 0 rem(3px);
+        margin: 0 .1875rem;
         text-decoration: none;
         color: #fff;
         transition: all .5s ease;
-        font-size: rem(15px);
+        font-size: .9375rem;
         line-height: 1.2;
         font-weight: 500;
         &:after {
@@ -50,14 +50,14 @@
 }
 .footer__phone {
 	float: right;
-	width: rem(400px);
-	margin: rem(5px) 0 0 rem(30px);
+    width: 25rem;
+    margin: .3125rem 0 0 1.875rem;
 	text-align: right;
 }
 .footer__phone-link {
 	display: inline-block;
 	vertical-align: middle;
-	font-size: rem(15px);
+	font-size: .9375rem;
 	a {
 		position: relative;
 		text-decoration: none;
@@ -85,16 +85,16 @@
 .footer__phone-callback {
 	display: inline-block;
 	vertical-align: middle;
-	margin: 0 0 0 rem(20px);
+	margin: 0 0 0 1.25rem;
 
 	a {
         display: inline-block;
         vertical-align: top;
-		padding: rem(16px) rem(35px);
-		font-size: rem(14px);
+        padding: 1rem 2.1875rem;
+        font-size: .875rem;
         font-weight: 500;
         border: 2px solid $pink;
-        border-radius: rem(50px);
+        border-radius: 3.125rem;
         text-decoration: none;
         color: #fff;
         transition: all .5s ease;
@@ -107,21 +107,21 @@
 
 @media only screen and (max-width : 1200px) {
     .footer__social {
-        width: rem(150px);
+        width: 9.375rem;
     }
 }
 
 @media only screen and (max-width : 992px) {
     .footer__phone {
-    	width: rem(220px);
-        margin: rem(20px) 0 0 rem(30px);
+        width: 13.75rem;
+        margin: 1.25rem 0 0 1.875rem;
     }
     .footer__phone-link {
         display: block;
     }
     .footer__phone-callback {
     	display: block;
-    	margin: rem(15px) 0 0 0;
+    	margin: .9375rem 0 0 0;
     }
 }
 
@@ -132,13 +132,13 @@
         text-align: center;
     }
     .footer__phone {
-        margin: rem(30px) 0 0 0;
+        margin: 1.875rem 0 0 0;
         float: none;
         width: auto;
         text-align: center;
     }
     .footer__social {
-        margin: rem(20px) 0 0 0;
+        margin: 1.25rem 0 0 0;
         float: none;
         width: auto;
         text-align: center;

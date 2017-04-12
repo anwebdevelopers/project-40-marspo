@@ -1,0 +1,63 @@
+.announcement {
+    padding: 4.375rem 0 6.25rem 0;
+    background-color: #171c2c;
+}
+.announcement__container {
+    @extend .container;
+}
+.announcement__text {
+    padding: 3.75rem 6%;
+    border: 0.5rem solid $green;
+    font-size: 1.5625rem;
+    line-height: 1.6;
+    color: #fff;
+    text-align: center;
+    p {
+        margin: 0.625rem 0 0;
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+}
+.announcement__item {
+    margin: 4.375rem 0 0 0;
+    text-align: center;
+}
+.announcement__pretitle {
+    font-size: 1.5625rem;
+    font-weight: 900;
+    line-height: 1;
+    color: #fff;
+    text-transform: uppercase;
+}
+.announcement__title {
+}
+.announcement__list {
+    margin: 2.5rem 0 0 0;
+    padding: 0;
+    list-style: none;
+    counter-reset: myCounter;
+}
+.announcement__list-item {
+    margin: 2.5rem 0 0 0;
+}
+.announcement__list-title {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.6;
+    color: #fff;
+    text-transform: uppercase;
+    &:before {
+        counter-increment: myCounter;
+        content: counter(myCounter) '.';
+        color: $green;
+    }
+}
+.announcement__list-text {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #fff;
+}

@@ -41,7 +41,7 @@ body {
 	min-width: 320px;
 	margin: 0;
 	padding: 0;
-	font-size: rem(16px);
+	font-size: 1rem;
 	line-height: 1.4;
 	font-family: 'Gotham Pro', sans-serif;
 	color: $fc;
@@ -66,29 +66,29 @@ body {
 	border: none;
 	display: inline-block;
 	vertical-align: top;
-	padding: rem(22px) rem(45px);
-	border-bottom: rem(5px) solid darken($pink, 10%);
+	padding: 1.375rem 2.8125rem;
+	border-bottom: .3125rem solid darken($pink, 10%);
 	background-color: $pink;
 	color: #fff;
-	font-size: rem(20px);
+	font-size: 1.25rem;
 	line-height: 1;
 	font-weight: 500;
 	letter-spacing: 1px;
 	font-family: 'Gotham Pro';
-	border-radius: rem(70px);
+	border-radius: 4.375rem;
 	transition: background-color .3s ease;
 	cursor: default;
 	&:hover, &:active, &:focus {
-		margin-top: rem(3px);
-		border-bottom: rem(2px) solid darken($pink, 20%);
+		margin-top: .1875rem;
+		border-bottom: .125rem solid darken($pink, 20%);
 		background-color: darken($pink, 10%);
 	}
 }
 .button_blue {
 	background-color: $blue;
-	border-bottom: rem(5px) solid darken($blue, 10%);
+	border-bottom: .3125rem solid darken($blue, 10%);
 	&:hover, &:active, &:focus {
-		border-bottom: rem(2px) solid darken($blue, 20%);
+		border-bottom: .125rem solid darken($blue, 20%);
 		background-color: darken($blue, 10%);
 	}
 }
@@ -99,7 +99,7 @@ body {
 	color: $fc;
 	h2 {
 		margin: 0;
-		font-size: rem(51px);
+		font-size: 3.1875rem;
 		text-transform: uppercase;
 		font-weight: 900;
 		line-height: 1.2;
@@ -121,6 +121,9 @@ a {
 //Custom Styles Here
 @import "components/header.scss";
 @import "components/about.scss";
+@import "components/announcement.scss";
+@import "components/winners.scss";
+@import "components/winners-special.scss";
 @import "components/registration.scss";
 @import "components/stage.scss";
 @import "components/nomination.scss";
@@ -140,7 +143,7 @@ a {
 //Load Libs SASS
 @import "html/libs/Attractive-jQuery-Circular-Countdown-Timer-Plugin-TimeCircles/inc/TimeCircles";
 //@import "html/libs/animate/animate.sass";
-//@import "html/libs/owl.carousel/dist/assets/owl.carousel.min";
+@import "html/libs/owl.carousel/dist/assets/owl.carousel.min";
 //@import "html/libs/superfish/dist/css/superfish";
 //@import "html/libs/font-awesome/scss/font-awesome.scss";
 //@import "html/libs/jQuery.mmenu/dist/css/jquery.mmenu.all";

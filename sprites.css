@@ -38,3 +38,33 @@
 	height: 34px;
 }
 
+.icon-pretitle-gray{
+	background-position: -174px 0;
+	width: 86px;
+	height: 23px;
+}
+
+.icon-pretitle-green{
+	background-position: -174px -29px ;
+	width: 86px;
+	height: 23px;
+}
+
+.icon-cup{
+	background-position: -174px -60px ;
+	width: 64px;
+	height: 53px;
+}
+
+.icon-winners-white{
+	background-position: -45px 0;
+	width: 122px;
+	height: 116px;
+}
+
+.icon-winners-gray{
+	background-position: -45px -123px ;
+	width: 208px;
+	height: 198px;
+}
+

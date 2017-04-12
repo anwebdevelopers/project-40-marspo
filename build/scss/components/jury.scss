@@ -1,12 +1,12 @@
 .jury {
-    padding: rem(100px) 0;
+    padding: 6.25rem 0;
     background-color: #f7f7f7;
 }
 .jury__container {
     @extend .container;
 }
 .jury__box {
-    margin: rem(80px) 0 0 0;
+    margin: 5rem 0 0 0;
     font-size: 0;
     text-align: center;
     display: flex;
@@ -18,9 +18,9 @@
     display: inline-block;
     vertical-align: top;
     width: 20%;
-    margin: 0 6.66% rem(50px) 0;
+    margin: 0 6.66% 3.125rem 0;
     &:nth-child(4n+4) {
-        margin: 0 0 rem(50px) 0;
+        margin: 0 0 3.125rem 0;
     }
     text-align: center;
     &:hover, &:active {
@@ -64,45 +64,45 @@
 }
 
 .jury__item-name {
-    margin: rem(30px) 0 0 0;
-    font-size: rem(20px);
+    margin: 1.875rem 0 0 0;
+    font-size: 1.25rem;
     text-transform: uppercase;
     font-weight: 900;
     line-height: 1.2;
 }
 .jury__item-position {
     position: relative;
-    margin: rem(10px) 0 rem(30px) 0;
-    font-size: rem(15px);
+    margin: .625rem 0 1.875rem 0;
+    font-size: .9375rem;
     line-height: 1.2;
     transition: all .5s ease;
     &:after {
         content: '';
         position: absolute;
         left: 50%;
-        bottom: rem(-30px);
+        bottom: -1.875rem;
         transform: translateX(-50%);
         height: 3px;
-        width: rem(80px);
+        width: 5rem;
         background-color: $green;
     }
 }
 .jury__button {
-    margin: rem(100px) 0 0 0;
+    margin: 6.25rem 0 0 0;
     text-align: center;
     a, button {
-        margin-left: rem(5px);
-        margin-right: rem(5px);
-        margin-bottom: rem(10px);
+        margin-left: .3125rem;
+        margin-right: .3125rem;
+        margin-bottom: .625rem;
     }
 }
 
 @media only screen and (max-width : 1200px) {
     .jury__item {
         width: 22%;
-        margin: 0 4% rem(50px) 0;
+        margin: 0 4% 3.125rem 0;
         &:nth-child(4n+4) {
-            margin: 0 0 rem(50px) 0;
+            margin: 0 0 3.125rem 0;
         }
     }
 }
@@ -110,12 +110,12 @@
 @media only screen and (max-width : 992px) {
     .jury__item {
         width: 30%;
-        margin: 0 5% rem(50px) 0;
+        margin: 0 5% 3.125rem 0;
         &:nth-child(4n+4) {
-            margin: 0 5% rem(50px) 0;
+            margin: 0 5% 3.125rem 0;
         }
         &:nth-child(3n+3) {
-            margin: 0 0 rem(50px) 0;
+            margin: 0 0 3.125rem 0;
         }
     }
 }
@@ -126,12 +126,12 @@
 @media only screen and (max-width : 640px) {
     .jury__item {
         width: 32%;
-        margin: 0 2% rem(50px) 0;
+        margin: 0 2% 3.125rem 0;
         &:nth-child(4n+4) {
-            margin: 0 2% rem(50px) 0;
+            margin: 0 2% 3.125rem 0;
         }
         &:nth-child(3n+3) {
-            margin: 0 0 rem(50px) 0;
+            margin: 0 0 3.125rem 0;
         }
     }
 }
@@ -139,15 +139,15 @@
 @media only screen and (max-width : 480px) {
     .jury__item {
         width: 49%;
-        margin: 0 2% rem(50px) 0;
+        margin: 0 2% 3.125rem 0;
         &:nth-child(4n+4) {
-            margin: 0 2% rem(50px) 0;
+            margin: 0 2% 3.125rem 0;
         }
         &:nth-child(3n+3) {
-            margin: 0 2% rem(50px) 0;
+            margin: 0 2% 3.125rem 0;
         }
         &:nth-child(even) {
-            margin: 0 0 rem(50px) 0;
+            margin: 0 0 3.125rem 0;
         }
     }
 }

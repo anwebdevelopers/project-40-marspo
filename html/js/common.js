@@ -63,6 +63,19 @@ $(function() {
         $registrationCounterBox.TimeCircles().rebuild();
     });
 
+    //------------------------------------------------------
+    //slider
+    //------------------------------------------------------
+    $('.slider').addClass('owl-carousel').owlCarousel({
+        items: 1,
+        loop: true,
+        nav: true,
+        navText: '',
+        autoplayTimeout: 10000,
+        autoplay: true,
+        smartSpeed: 1200
+    });
+
     //-------------------------------
     //Выпадающие пункты номинаций
     //-------------------------------
@@ -105,7 +118,7 @@ $(function() {
     $(".jury__item-position").equalHeight();
     $(".contacts__item-name").equalHeight();
     $(".contacts__item-position").equalHeight();
-
+    //$(".winners__place-name").equalHeight();
 
 
     //-------------------------------

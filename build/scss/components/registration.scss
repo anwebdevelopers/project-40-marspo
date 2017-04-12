@@ -1,7 +1,7 @@
 .registration {
     position: relative;
     z-index: 1;
-    padding: rem(60px) 0 0 0;
+    padding: 3.75rem 0 0 0;
     background-color: #393949;
     background-image: url(../img/bg-registration.jpg);
     background-size: cover;
@@ -18,7 +18,7 @@
     display: inline-block;
     vertical-align: top;
     width: 50%;
-    margin: 0 0 rem(60px) 0;
+    margin: 0 0 3.75rem 0;
 }
 .registration__right-col {
     align-self: flex-end;
@@ -28,20 +28,20 @@
     margin: 0 0 0 2%;
 }
 .registration__counter {
-    margin: rem(20px)  0 0 0;
+    margin: 1.25rem  0 0 0;
 }
 .registration__counter-title {
     color: #fff;
     h3 {
         margin: 0;
-        font-size: rem(25px);
+        font-size: 1.5625rem;
         font-weight: 500;
         line-height: 1.2;
     }
 }
 .registration__counter-box {
     max-width: 400px;
-    margin: rem(20px) 0 0 0;
+    margin: 1.25rem 0 0 0;
     .textDiv_Days,
     .textDiv_Hours,
     .textDiv_Minutes {
@@ -64,10 +64,10 @@
     }
 }
 .registration__button {
-    margin: rem(60px) 0 0 0;
+    margin: 3.75rem 0 0 0;
 }
 .registration__img {
-    margin: rem(-180px) 0 0 0;
+    margin: -11.25rem 0 0 0;
     img {
         display: block;
         max-width: 100%;
@@ -100,10 +100,10 @@
     // .registration__right-col {
     //     display: block;
     //     width: auto;
-    //     margin: rem(40px) 0 0 0;
+    //     margin: 2.5rem 0 0 0;
     // }
     // .registration__counter-box {
-    //     margin: rem(20px) auto 0 auto;
+    //     margin: 1.25rem auto 0 auto;
     // }
     // .registration__img {
     //     max-width: 300px;
@@ -125,10 +125,10 @@
     .registration__right-col {
         display: block;
         width: auto;
-        margin: rem(40px) 0 0 0;
+        margin: 2.5rem 0 0 0;
     }
     .registration__counter-box {
-        margin: rem(20px) auto 0 auto;
+        margin: 1.25rem auto 0 auto;
     }
     .registration__img {
         width: 60%;
